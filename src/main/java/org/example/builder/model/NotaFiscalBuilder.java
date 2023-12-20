@@ -1,10 +1,8 @@
-package org.example.builder;
+package org.example.builder.model;
 
 import org.example.builder.calculatorFactory.NotaFiscalCalculator;
 import org.example.builder.calculatorFactory.NotaFiscalGatewayParaPessoaFisica;
 import org.example.builder.calculatorFactory.NotaFiscalGatewayParaPessoaJuridica;
-import org.example.builder.model.Item;
-import org.example.builder.model.NotaFiscal;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;

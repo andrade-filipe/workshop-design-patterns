@@ -2,6 +2,7 @@ package org.example.builder;
 
 import org.example.builder.model.Item;
 import org.example.builder.model.NotaFiscal;
+import org.example.builder.model.NotaFiscalBuilder;
 
 import java.time.OffsetDateTime;
 
