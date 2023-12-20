@@ -1,7 +1,6 @@
 package org.example.factory.logger;
 
 public abstract class Logger {
-
     //lets interface decide what implementation use
     protected abstract LoggerContract loggerConstructor();
 

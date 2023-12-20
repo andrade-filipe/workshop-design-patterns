@@ -1,8 +1,8 @@
 package org.example.factory.logger;
 
-public class LoggerFactory extends Logger{
+public class LoggerFactory2 extends Logger{
     @Override
     protected LoggerContract loggerConstructor() {
-        return new LoggerImpl();
+        return new LoggerImpl2();
     }
 }
