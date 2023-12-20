@@ -8,7 +8,7 @@ public class LoggerImpl implements LoggerContract{
 
     @Override
     public void print(String message) {
-        System.out.println(OffsetDateTime.now());
+        System.out.print("[" + OffsetDateTime.now() + "] ");
         System.out.println(message);
     }
 }
